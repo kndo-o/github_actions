@@ -23,7 +23,7 @@ jobs:
           pytest
       
       - name: Format code with autopep8
-	run: |
+        run: |
 	  pip install autopep8
 	  autopep8 --in-place --aggressive --recursive .
       
