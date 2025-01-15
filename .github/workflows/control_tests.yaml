@@ -24,8 +24,8 @@ jobs:
       
       - name: Format code with autopep8
         run: |
-	  pip install autopep8
-	  autopep8 --in-place --aggressive --recursive .
+          pip install autopep8
+          autopep8 --in-place --aggressive --recursive .
       
       - name: Run flake8
         uses: py-actions/flake8@v2
